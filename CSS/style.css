@@ -12,14 +12,12 @@ body{
     justify-content: center;
     align-items: stretch;
     align-content: stretch;
-
-    
 }
 
 #container{
     width: 95%;
     margin: 40px 10px 40px 10px;
-    height: 100vh;
+    height: 150vh;
 
     display: flex;
     flex-direction: row;
@@ -115,4 +113,30 @@ img{
 
 img:hover{
     transform: scale(1.1);
+}
+
+ol , ul , li{
+    margin: 10px;
+}
+
+.listeler{
+    width: 100%;
+}
+
+.black-mirror{
+    width: 400px;
+    height: 200px;
+    transition: all 0.5s;
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+.diziler{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: stretch;
 }
