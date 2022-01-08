@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+
+    
+}
+
+#container{
+    width: 95%;
+    margin: 40px 10px 40px 10px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.icerikler{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: space-evenly;
+}
+
+h1{
+    font-size: 3rem;
+    transition: all 1s;
+}
+h1:hover{
+    color: red;
+    transform: translate(50px, 50px);  
+}
+
+h2{
+    font-size: 2rem;
+    transition: all 1s;
+}
+h2:hover{
+    color: blueviolet;
+    transform: translate(50px, 50px);  
+}
+
+h3{
+    font-size: 1.5rem;
+    transition: all 1s;
+}
+h3:hover{
+    color: lime;
+    transform: translate(50px, 50px);  
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+.filmler{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    padding: 20px;
+}
+
+.film{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: stretch;
+    width: 95%;
+}
+
+.film1{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-size: 1.5rem;
+
+}
+
+.film1>div{
+    width: 100%;
+    padding: 5px;
+
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    transition: all 0.5s;
+
+    border-radius: 10px;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
